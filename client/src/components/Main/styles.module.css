@@ -1,0 +1,53 @@
+.page{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.main{
+    display: flex;
+    gap: 70px;
+}
+
+.main .h2,
+.main .h2 p{
+    display: flex;
+    text-align: center;
+}
+
+.page .left h2,
+.page .right h2,
+.page .down h2 {
+   text-align: center;
+}
+
+.page .left,
+.page .right,
+.page .down {
+    background-color: bisque;
+    border-radius: 15px;
+}
+
+
+.white_btn,
+.green_btn {
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    background-color: grey;
+    border-radius: 20px;
+    width: 180px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.green_btn {
+    background-color: aqua;
+}
+
+.username{
+    color: green;
+}
